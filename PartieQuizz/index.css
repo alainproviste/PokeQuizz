@@ -1,0 +1,49 @@
+header{
+	width: 100%;
+	height: 11vh;
+	background-color: #ed2f21;
+	font-size: 350%;
+	text-align: center;
+	padding-top: 3vh;
+}
+
+body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	text-align: center;
+	font-family: "fonte pokemon";
+	color: #3a6bba;
+	margin-top: 0;
+	font-size: 5vh;
+}
+
+
+html {
+  font-family: sans-serif;
+}
+
+#choix {
+	padding-top: 0vh;
+	margin-left: 30%;
+	width: 40%;
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-gap: 3vh;
+}
+#info {
+	display: flex;
+	justify-content: space-around;
+	font-size: 2vh;
+}
+#start{
+	color: #3a6bba;
+	margin-top: 0;
+	font-size: 3vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}

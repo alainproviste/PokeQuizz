@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pokedex</title>
+		<!-- On inclut les librairies vue.js, axios et jquery. -->
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="moment.js"></script>
+		<!-- On inclut le fichier css. -->
+		<link href="index.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<!-- Cet header nous permettra de naviguer entre les différentes pages du site. -->
+		<header>
+			<img src="pokedex.png" style="height: 7vh;">
+			<img src="logo_pokequizz.png" style="height: 9vh;">
+			<img src="quizz.png" style="height: 7vh;">
+		</header>
+		<div id="quizz">
+			<button onclick="Vue.timer()" id="start">Start</button>
+			<div id="title"></div>
+			<div id="info">
+				<p id="tempsRestant"></p>
+				<p id="nbDeClique"></p>
+			</div>
+			<div id="choix"></div>
+		</div>
+	</body>
+  <script src="index.js"></script>
+</html>
